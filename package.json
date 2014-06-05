@@ -1,29 +1,29 @@
 {
-  "name": "raptor-sample-ui-components",
-  "description": "Sample library of reusable UI components",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/raptorjs3/raptor-sample-ui-components.git"
-  },
-  "scripts": {
-    "test": "node_modules/.bin/mocha --ui bdd --reporter spec  ./test"
-  },
-  "author": "Patrick Steele-Idem <pnidem@gmail.com>",
-  "maintainers": "Patrick Steele-Idem <pnidem@gmail.com>",
-  "dependencies": {
-    "raptor-renderer": "^0.2.5-beta",
-    "raptor-templates": "^1.1.1-beta",
-    "raptor-dust": "^0.3.8-beta"
-  },
-  "devDependencies": {
-    "mocha": "~1.15.1",
-    "chai": "~1.8.1"
-  },
-  "license": "MIT",
-  "bin": {},
-  "main": "index.js",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
-  },
-  "version": "0.1.0-beta"
+    "name": "raptor-sample-ui-components",
+    "description": "Sample library of reusable UI components",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/raptorjs3/raptor-sample-ui-components.git"
+    },
+    "scripts": {
+        "test": "node_modules/.bin/mocha --ui bdd --reporter spec  ./test"
+    },
+    "author": "Patrick Steele-Idem <pnidem@gmail.com>",
+    "maintainers": "Patrick Steele-Idem <pnidem@gmail.com>",
+    "dependencies": {
+        "raptor-renderer": "^0.2.5-beta",
+        "raptor-templates": "^1.1.1-beta",
+        "raptor-dust": "^0.3.8-beta"
+    },
+    "devDependencies": {
+        "mocha": "~1.15.1",
+        "chai": "~1.8.1"
+    },
+    "license": "MIT",
+    "bin": {},
+    "main": "index.js",
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org/"
+    },
+    "version": "0.1.1-beta"
 }
