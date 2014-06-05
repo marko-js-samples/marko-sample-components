@@ -1,0 +1,1 @@
+(function(){dust.register("%TEMPLATE%",body_0);function body_0(chk,ctx){return chk.helper("sample-button",ctx,{},{"label":"Primary","variant":"primary"});}return body_0;})();
