@@ -1,0 +1,21 @@
+<c-def function="body">
+    <c-if test="data.label">
+        ${data.label}
+    </c-if>
+    <c-else>
+        <c-invoke function="data.tag.invokeBody"/>
+    </c-else>
+
+    <c-if test="data.isDropdown">
+        &nbsp;
+        <span class="caret"></span>$
+    </c-if>
+</c-def>
+
+<a href="${data.href}" c-attrs="data.rootAttrs" c-if="data.type === 'link'">
+    <c-invoke function="body()"/>
+</a>
+<button c-attrs="data.rootAttrs" c-else>
+    <c-invoke function="body()"/>
+</button>
+
