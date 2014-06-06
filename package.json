@@ -13,7 +13,8 @@
   "dependencies": {
     "raptor-renderer": "^0.2.5-beta",
     "raptor-templates": "^1.1.1-beta",
-    "raptor-dust": "^0.3.8-beta"
+    "raptor-dust": "^0.3.8-beta",
+    "raptor-widgets": "^0.2.16-beta"
   },
   "devDependencies": {
     "mocha": "~1.15.1",
