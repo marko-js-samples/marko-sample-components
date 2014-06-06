@@ -11,7 +11,8 @@ button({
 */
 
 var components = [
-    { name: 'button', renderer: require('./components/sample-button/renderer') }
+    { name: 'button', renderer: require('./components/sample-button/renderer') },
+    { name: 'alert', renderer: require('./components/sample-alert/renderer') }
 ];
 
 components.forEach(function(component) {
