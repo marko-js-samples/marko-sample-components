@@ -12,10 +12,10 @@
     </c-if>
 </c-def>
 
-<a href="${data.href}" c-attrs="data.rootAttrs" c-if="data.type === 'link'">
+<a href="${data.href}" c-attrs="data.rootAttrs" w-bind="./widget" c-if="data.type === 'link'">
     <c-invoke function="body()"/>
 </a>
-<button c-attrs="data.rootAttrs" c-else>
+<button c-attrs="data.rootAttrs" w-bind="./widget" c-else>
     <c-invoke function="body()"/>
 </button>
 
