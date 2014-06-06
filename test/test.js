@@ -28,7 +28,9 @@ function compare(outputFilename, actualHtml) {
 
     fs.writeFileSync(actualHtmlPath, actualHtml, 'utf8');
 
-    expect(expectedHtml).to.equal(actualHtml);
+    console.log('EXPECTED: ', expectedHtml, 'ACTUAL: ', actualHtml, outputFilename);
+
+    expect(actualHtml).to.equal(expectedHtml);
 }
 
 function testJavaScriptRender(component, data, outputFilename) {
