@@ -1,0 +1,5 @@
+<div c-attrs="data.rootAttrs">
+    <button type="button" class="close" data-dismiss="alert" aria-hidden="true" c-if="data.dismissable">&times;</button>
+    <c-if test="data.message">$!data.message</c-if>
+    <c-invoke function="data.invokeBody()" c-else-if="data.invokeBody"/>
+</div>
