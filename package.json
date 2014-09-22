@@ -11,17 +11,17 @@
     "author": "Patrick Steele-Idem <pnidem@gmail.com>",
     "maintainers": "Patrick Steele-Idem <pnidem@gmail.com>",
     "dependencies": {
-        "raptor-renderer": "^1.0.0-beta",
-        "marko": "^1.1.24-beta",
-        "raptor-dust": "^1.0.0-beta",
-        "marko-widgets": "^1.0.0-beta"
+        "raptor-renderer": "^1.0.0",
+        "marko": "^1.1.24",
+        "raptor-dust": "^1.0.0",
+        "marko-widgets": "^1.0.0"
     },
     "devDependencies": {
         "mocha": "~1.15.1",
         "chai": "~1.8.1",
         "dustjs-linkedin": "^2.3.5",
-        "view-engine": "^0.1.5-beta",
-        "view-engine-dust": "^0.1.2-beta"
+        "view-engine": "^0.1.5",
+        "view-engine-dust": "^0.1.2"
     },
     "license": "MIT",
     "bin": {},
