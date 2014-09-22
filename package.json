@@ -20,8 +20,8 @@
         "mocha": "~1.15.1",
         "chai": "~1.8.1",
         "dustjs-linkedin": "^2.3.5",
-        "view-engine": "^0.1.5",
-        "view-engine-dust": "^0.1.2"
+        "view-engine": "^1.0.0",
+        "view-engine-dust": "^1.0.0"
     },
     "license": "MIT",
     "bin": {},
