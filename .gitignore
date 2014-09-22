@@ -1,6 +1,6 @@
 /lib-cov
 
-*.rhtml.js
+*.marko.js
 
 *.seed
 *.log

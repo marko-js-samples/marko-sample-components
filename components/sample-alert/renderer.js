@@ -1,4 +1,4 @@
-var template = require('raptor-templates').load(require.resolve('./template.rhtml'));
+var template = require('marko').load(require.resolve('./template.marko'));
 
 exports.tag = {
     attributes: {

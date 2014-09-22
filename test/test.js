@@ -5,7 +5,7 @@ require('chai').should();
 var expect = require('chai').expect;
 var nodePath = require('path');
 var fs = require('fs');
-var raptorTemplates = require('raptor-templates');
+var marko = require('marko');
 var viewEngine = require('view-engine');
 viewEngine.register('dust', require('view-engine-dust'));
 
@@ -45,8 +45,8 @@ function testTemplateRender(templatePath, outputFilename, done) {
 
     var template;
 
-    if (ext === '.rhtml') {
-        template = raptorTemplates.load(templatePath);
+    if (ext === '.marko') {
+        template = marko.load(templatePath);
     } else if (ext === '.dust') {
         template = viewEngine.load(templatePath);
     } else {
@@ -73,14 +73,14 @@ describe('button/js' , function() {
 
 });
 
-describe('button/rhtml' , function() {
+describe('button/marko' , function() {
 
-    it('should correctly render a primary button embedded in a Raptor template', function(done) {
-        testTemplateRender('button-primary.rhtml', 'button-primary-rhtml', done);
+    it('should correctly render a primary button embedded in a Marko template', function(done) {
+        testTemplateRender('button-primary.marko', 'button-primary-marko', done);
     });
 
-    it('should correctly render a success button embedded in a Raptor template', function(done) {
-        testTemplateRender('button-success.rhtml', 'button-success-rhtml', done);
+    it('should correctly render a success button embedded in a Marko template', function(done) {
+        testTemplateRender('button-success.marko', 'button-success-marko', done);
     });
 
 });

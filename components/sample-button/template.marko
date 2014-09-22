@@ -1,0 +1,21 @@
+<def function="body">
+    <if test="data.label">
+        ${data.label}
+    </if>
+    <else>
+        <invoke function="data.tag.invokeBody"/>
+    </else>
+
+    <if test="data.isDropdown">
+        &nbsp;
+        <span class="caret"></span>$
+    </if>
+</def>
+
+<a href="${data.href}" attrs="data.rootAttrs" w-bind="./widget" if="data.type === 'link'">
+    <invoke function="body()"/>
+</a>
+<button attrs="data.rootAttrs" w-bind="./widget" else>
+    <invoke function="body()"/>
+</button>
+
