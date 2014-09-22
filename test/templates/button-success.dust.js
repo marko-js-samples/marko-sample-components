@@ -1,1 +1,1 @@
-(function(){dust.register("%TEMPLATE%",body_0);function body_0(chk,ctx){return chk.helper("sample-button",ctx,{},{"label":"Success","variant":"success"});}return body_0;})();
+(function(){module.exports=body_0;function body_0(chk,ctx){return chk.helper("sample-button",ctx,{},{"label":"Success","variant":"success"});}return body_0;})();

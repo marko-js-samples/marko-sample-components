@@ -6,10 +6,9 @@ var expect = require('chai').expect;
 var nodePath = require('path');
 var fs = require('fs');
 var marko = require('marko');
-var viewEngine = require('view-engine');
-viewEngine.register('dust', require('view-engine-dust'));
-
 var dust = require('dustjs-linkedin');
+var viewEngine = require('view-engine');
+viewEngine.register('dust', require('view-engine-dust'), { dust: dust });
 
 require('../dust').registerHelpers(dust);
 
@@ -58,7 +57,7 @@ function testTemplateRender(templatePath, outputFilename, done) {
         compare(outputFilename, actualHtml);
         done();
     });
-    
+
 }
 
 describe('button/js' , function() {
