@@ -1,34 +1,34 @@
 {
-  "name": "raptor-sample-ui-components",
-  "description": "Sample library of reusable UI components",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/raptorjs3/raptor-sample-ui-components.git"
-  },
-  "scripts": {
-    "test": "node_modules/.bin/mocha --ui bdd --reporter spec  ./test"
-  },
-  "author": "Patrick Steele-Idem <pnidem@gmail.com>",
-  "maintainers": "Patrick Steele-Idem <pnidem@gmail.com>",
-  "dependencies": {
-    "dustjs-linkedin": "^2.4.2",
-    "marko": "^1.1.24",
-    "marko-widgets": "^1.0.0",
-    "raptor-dust": "^1.1.2",
-    "raptor-renderer": "^1.1.1"
-  },
-  "devDependencies": {
-    "mocha": "~1.15.1",
-    "chai": "~1.8.1",
-    "dustjs-linkedin": "^2.3.5",
-    "view-engine": "^1.0.0",
-    "view-engine-dust": "^1.0.0"
-  },
-  "license": "MIT",
-  "bin": {},
-  "main": "index.js",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
-  },
-  "version": "1.0.2"
+    "name": "raptor-sample-ui-components",
+    "description": "Sample library of reusable UI components",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/raptorjs3/raptor-sample-ui-components.git"
+    },
+    "scripts": {
+        "test": "node_modules/.bin/mocha --ui bdd --reporter spec  ./test"
+    },
+    "author": "Patrick Steele-Idem <pnidem@gmail.com>",
+    "maintainers": "Patrick Steele-Idem <pnidem@gmail.com>",
+    "dependencies": {
+        "dustjs-linkedin": "^2.4.2",
+        "marko": "^1.1.24",
+        "marko-widgets": "^1.0.0",
+        "raptor-dust": "^1.1.2",
+        "raptor-renderer": "^1.1.1"
+    },
+    "devDependencies": {
+        "mocha": "~1.15.1",
+        "chai": "~1.8.1",
+        "dustjs-linkedin": "^2.3.5",
+        "view-engine": "^1.0.0",
+        "view-engine-dust": "^1.0.0"
+    },
+    "license": "MIT",
+    "bin": {},
+    "main": "index.js",
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org/"
+    },
+    "version": "1.0.3"
 }
