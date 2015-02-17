@@ -1,9 +1,9 @@
 {
-    "name": "raptor-sample-ui-components",
-    "description": "Sample library of reusable UI components",
+    "name": "marko-sample-components",
+    "description": "Sample reusable UI components built on Marko and Marko Widgets",
     "repository": {
         "type": "git",
-        "url": "https://github.com/raptorjs/raptor-sample-ui-components.git"
+        "url": "https://github.com/raptorjs/marko-sample-components.git"
     },
     "scripts": {
         "test": "node_modules/.bin/mocha --ui bdd --reporter spec  ./test"
@@ -12,10 +12,9 @@
     "maintainers": "Patrick Steele-Idem <pnidem@gmail.com>",
     "dependencies": {
         "dustjs-linkedin": "^2.4.2",
-        "marko": "^1.1.24",
-        "marko-widgets": "^1.0.0",
-        "raptor-dust": "^1.1.2",
-        "raptor-renderer": "^1.1.1"
+        "marko": "^2.0.0",
+        "marko-widgets": "^2.0.0",
+        "raptor-dust": "^1.1.2"
     },
     "devDependencies": {
         "mocha": "~1.15.1",
@@ -30,5 +29,5 @@
     "publishConfig": {
         "registry": "https://registry.npmjs.org/"
     },
-    "version": "1.0.4"
+    "version": "1.0.0"
 }

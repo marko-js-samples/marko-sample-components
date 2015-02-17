@@ -33,7 +33,7 @@ function compare(outputFilename, actualHtml) {
 }
 
 function testJavaScriptRender(component, data, outputFilename) {
-    var renderResult = component(data);
+    var renderResult = component.render(data);
     var actualHtml = renderResult.toString();
     compare(outputFilename, actualHtml);
 }
