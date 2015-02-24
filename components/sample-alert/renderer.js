@@ -9,12 +9,12 @@ exports.tag = {
 };
 
 module.exports = function render(input, context) {
-    
+
     var rootAttrs = {};
 
-    var type = input.type || 'info';                
+    var type = input.type || 'info';
     var classParts = ["alert", "alert-" + type];
-    
+
     var splatAttrs = input['*'];
     if (splatAttrs) {
         var className = splatAttrs["class"];
@@ -29,15 +29,14 @@ module.exports = function render(input, context) {
             }
         }
     }
-    
+
     rootAttrs["class"] = classParts.join(" ");
 
     template.render({
-        dismissable: input.dismissable === true, 
+        dismissable: input.dismissable === true,
         message: input.message,
-        invokeBody: input.invokeBody,
+        renderBody: input.renderBody,
         rootAttrs: rootAttrs
     }, context);
 };
 
-     

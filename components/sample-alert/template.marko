@@ -1,5 +1,5 @@
 <div attrs="data.rootAttrs">
     <button type="button" class="close" data-dismiss="alert" aria-hidden="true" if="data.dismissable">&times;</button>
     <if test="data.message">$!data.message</if>
-    <invoke function="data.invokeBody()" else-if="data.invokeBody"/>
+    <invoke function="data.renderBody(out)" else-if="data.renderBody"/>
 </div>
